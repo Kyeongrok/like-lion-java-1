@@ -1,4 +1,4 @@
-public class CurrencyAlgorithm2 {
+public class CurrencyCnt {
     public static void main(String[] args) {
         int cur50000 = 50000;
         int cur10000 = 10000;
