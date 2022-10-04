@@ -7,12 +7,8 @@ public class CurrencyAlgorithm {
         int x = sc.nextInt();
         int[] arr = {50000, 10000, 5000, 1000, 500, 100, 50, 10};
         for(int i = 0 ; i < arr.length ; i ++) {
-            if(x >= arr[i]) {
-                System.out.println(arr[i] + "원 : " + x/arr[i] + "개");
-                x %= arr[i];
-            } else {
-                System.out.println(arr[i] + "원 : 0개");
-            }
+            System.out.println(arr[i] + "원 : " + x/arr[i] + "개");
+            x %= arr[i];
         }
     }
 }
