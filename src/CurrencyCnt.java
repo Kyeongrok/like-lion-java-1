@@ -1,31 +1,19 @@
 public class CurrencyCnt {
     public static void main(String[] args) {
-        int cur50000 = 50000;
-        int cur10000 = 10000;
-        int cur5000 = 5000;
-        int cur1000 = 1000;
-        int cur500 = 500;
-        int cur100 = 100;
-        int cur50 = 50;
-        int cur10 = 10;
+        int curr50000 = 50000;
+        int curr10000 = 10000;
+        int curr5000 = 5000;
+        int curr1000 = 1000;
+        int curr500 = 500;
 
-        int refund = 25890;
+
+        int refund = 258900;
         System.out.printf("입력 금액 : %d\n", refund);
 
-        System.out.printf("%d원 : %d개\n", cur50000, refund/cur50000);
-        refund %= cur50000;
-        System.out.printf("%d원 : %d개\n", cur10000, refund/cur10000);
-        refund %= cur10000;
-        System.out.printf("%d원 : %d개\n", cur5000, refund/cur5000);
-        refund %= cur5000;
-        System.out.printf("%d원 : %d개\n", cur1000, refund/cur1000);
-        refund %= cur1000;
-        System.out.printf("%d원 : %d개\n", cur500, refund/cur500);
-        refund %= cur500;
-        System.out.printf("%d원 : %d개\n", cur100, refund/cur100);
-        refund %= cur100;
-        System.out.printf("%d원 : %d개\n", cur50, refund/cur50);
-        refund %= cur50;
-        System.out.printf("%d원 : %d개\n", cur10, refund/cur10);
+        System.out.printf("%d원 : %d개  나머지 : %d\n", curr50000, refund / curr50000, refund % curr50000);
+        System.out.printf("%d원 : %d개  나머지 : %d\n", curr10000, refund / curr10000, refund % curr10000);
+        System.out.printf("%d원 : %d개  나머지 : %d\n", curr5000, refund / curr5000, refund % curr5000);
+        System.out.printf("%d원 : %d개  나머지 : %d\n", curr1000, refund / curr1000, refund % curr1000);
+        System.out.printf("%d원 : %d개  나머지 : %d\n", curr500, refund / curr500, refund % curr500);
     }
 }
