@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Test {
+public class CurrencyAlgorithm {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("금액을 입력하세요 : ");
