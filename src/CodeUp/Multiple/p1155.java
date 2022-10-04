@@ -1,15 +1,15 @@
-package CodeUp;
+package CodeUp.Multiple;
 
 import java.util.Scanner;
 
-public class p1156 {
+public class p1155 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        if(n % 2 == 0) {
-            System.out.println("even");
+        if(n % 7 == 0) {
+            System.out.println("multiple");
         } else {
-            System.out.println("odd");
+            System.out.println("not multiple");
         }
     }
 }

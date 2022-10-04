@@ -1,4 +1,4 @@
-package CodeUp;
+package CodeUp.OddEven;
 
 import java.util.Scanner;
 
