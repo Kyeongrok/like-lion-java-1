@@ -1,3 +1,5 @@
+package Day1;
+
 public class CurrencyCnt {
     public static void main(String[] args) {
         int curr50000 = 50000;
