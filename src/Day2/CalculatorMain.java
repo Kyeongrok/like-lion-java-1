@@ -1,6 +1,7 @@
 package Day2;
 
 public class CalculatorMain {
+
     public static void main(String[] args) {
         Calculator calculator = new Calculator();
         System.out.println("5 + 7 = " + calculator.add(5, 7));
