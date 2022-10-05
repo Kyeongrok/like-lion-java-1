@@ -8,7 +8,6 @@ public class CurrencyCnt {
         int curr1000 = 1000;
         int curr500 = 500;
 
-
         int refund = 258900;
         System.out.printf("입력 금액 : %d\n", refund);
 
